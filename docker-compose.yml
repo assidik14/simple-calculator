@@ -1,0 +1,6 @@
+services:
+  web:
+    container_name: calculator-app
+    image: assidik14/calculator:1.0
+    ports:
+    - "8080:80"
